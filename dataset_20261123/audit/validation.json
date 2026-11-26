@@ -1,0 +1,88 @@
+{
+  "images": 634,
+  "labels": 634,
+  "crops": 20204,
+  "groups": 629,
+  "receipt_provenance": {
+    "new_ocr": 363,
+    "prior_visual_review": 271
+  },
+  "receipts_by_split": {
+    "train": 513,
+    "val": 58,
+    "test": 57,
+    "quarantine": 6
+  },
+  "labels_by_split_status": {
+    "quarantine/excluded": 44,
+    "quarantine/verified": 181,
+    "test/excluded": 278,
+    "test/verified": 1437,
+    "train/excluded": 1091,
+    "train/needs_review": 10197,
+    "train/pseudo": 2782,
+    "train/verified": 4079,
+    "val/excluded": 305,
+    "val/verified": 1528
+  },
+  "hold_reason_counts": {
+    "ocr_disagreement": 9483,
+    "low_recognition_confidence": 6605,
+    "out_of_vocabulary": 1737,
+    "encoder_length": 1391,
+    "small_or_vertical_crop": 45,
+    "irregular_baseline": 22,
+    "visual_cropped_or_mixed": 5
+  },
+  "encoder_max_label_length": 23,
+  "source_hashes_verified": true,
+  "manifest_lines": {
+    "train.txt": 6492,
+    "validation.txt": 1384,
+    "test.txt": 1304,
+    "train_verified.txt": 3710,
+    "train_pseudo.txt": 2782
+  },
+  "manifest_receipts": {
+    "train": 513,
+    "val": 58,
+    "test": 57,
+    "holdout": 0
+  },
+  "unexported_receipts": [
+    {
+      "receipt_id": "receipt_0405",
+      "split": "quarantine",
+      "reason": "split_conflict"
+    },
+    {
+      "receipt_id": "receipt_0406",
+      "split": "quarantine",
+      "reason": "split_conflict"
+    },
+    {
+      "receipt_id": "receipt_0470",
+      "split": "quarantine",
+      "reason": "split_conflict"
+    },
+    {
+      "receipt_id": "receipt_0471",
+      "split": "quarantine",
+      "reason": "split_conflict"
+    },
+    {
+      "receipt_id": "receipt_0621",
+      "split": "quarantine",
+      "reason": "split_conflict"
+    },
+    {
+      "receipt_id": "receipt_0622",
+      "split": "quarantine",
+      "reason": "split_conflict"
+    }
+  ],
+  "removed_manifest_lines": [],
+  "evaluation_contains_pseudo_labels": false,
+  "cross_split_identical_crop_pixels": 0,
+  "cross_split_receipt_groups": 0
+}

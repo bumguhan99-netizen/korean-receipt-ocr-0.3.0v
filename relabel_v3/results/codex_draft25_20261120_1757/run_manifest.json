@@ -1,0 +1,33 @@
+{
+  "source": "D:\\ssafy\\ocr\\ocr_v3\\data\\label_codex_v4_direct\\checkpoints\\direct_review_25",
+  "label_status": "Codex draft, user requested experimental training",
+  "splits": {
+    "train": {
+      "draft": 32495,
+      "eligible": 29790,
+      "held": 2705,
+      "length": 2037,
+      "nrtr_length": 438,
+      "oov": 279
+    },
+    "validation": {
+      "draft": 10348,
+      "eligible": 9451,
+      "held": 897,
+      "nrtr_length": 154,
+      "length": 670,
+      "oov": 90
+    }
+  },
+  "evaluation_interval_steps": 1000,
+  "pretrained_sha256": "8975dede5e0c2f47e0a7712b3d79ffdc766972f872fd0441ebcccd9d77cd52a3",
+  "dictionary_sha256": "2193f5dd0c62a4f268902b5d96dadfec3908d299afa9a6e5cad2c6a96c772828",
+  "input_sha256": {
+    "train": "b1c07813906203c4640c935ee2a60a6dda748adbd0d026d69858ffdec0b323ba",
+    "validation": "cd4864ea06b2f851f74d2aa17b076d0b1abb33598f59ad4543471834485762ac"
+  },
+  "manifest_sha256": {
+    "train": "4f99065e5fdbe129e876dd417201e683193291f39ae8747a1906b9d93f08b120",
+    "validation": "00e48d121a0c6010ed821eca5a1fb4f046d2b6474eb3e6d9eff73e8726424f3c"
+  }
+}

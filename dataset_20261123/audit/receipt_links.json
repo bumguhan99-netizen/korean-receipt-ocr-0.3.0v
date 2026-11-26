@@ -1,0 +1,44 @@
+[
+  {
+    "left": "receipt_0405",
+    "right": "receipt_0406",
+    "reason": "filename_sequence_pair",
+    "distance": null,
+    "thumbnail_error": null
+  },
+  {
+    "left": "receipt_0470",
+    "right": "receipt_0471",
+    "reason": "filename_sequence_pair",
+    "distance": null,
+    "thumbnail_error": null
+  },
+  {
+    "left": "receipt_0483",
+    "right": "receipt_0567",
+    "reason": "near_identical_frame",
+    "distance": 3,
+    "thumbnail_error": 0.16544117647058823
+  },
+  {
+    "left": "receipt_0483",
+    "right": "receipt_0568",
+    "reason": "near_identical_frame",
+    "distance": 6,
+    "thumbnail_error": 0.27205882352941174
+  },
+  {
+    "left": "receipt_0567",
+    "right": "receipt_0568",
+    "reason": "near_identical_frame",
+    "distance": 5,
+    "thumbnail_error": 0.23161764705882354
+  },
+  {
+    "left": "receipt_0621",
+    "right": "receipt_0622",
+    "reason": "filename_sequence_pair",
+    "distance": null,
+    "thumbnail_error": null
+  }
+]

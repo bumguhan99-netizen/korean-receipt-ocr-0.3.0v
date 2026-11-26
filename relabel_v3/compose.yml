@@ -1,0 +1,9 @@
+services:
+  train:
+    build: ./docker
+    gpus: all
+    shm_size: "16gb"
+    working_dir: /opt/PaddleOCR
+    volumes:
+      - .:/workspace
+    command: ["python", "tools/train.py", "-c", "/workspace/training.yaml"]
